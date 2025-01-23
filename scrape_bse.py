@@ -1,4 +1,4 @@
-'''
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -64,7 +64,7 @@ driver.quit()
 db_connection.close()
 
 print("Data scraped and inserted into MySQL successfully!")
-'''
+
 
 import mysql.connector
 import requests
